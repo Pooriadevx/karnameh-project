@@ -34,3 +34,5 @@ export type DashboardCtxType = {
   modalData: UserType | null;
   loading: boolean;
 };
+
+export type TablePropsType = { list: UserType[] };
